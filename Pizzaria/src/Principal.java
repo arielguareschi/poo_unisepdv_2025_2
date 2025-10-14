@@ -6,16 +6,16 @@ public class Principal {
     private static ArrayList<Pizza> cardapio = new ArrayList<>();
     private static Pedido pedidoAtual = new Pedido();
 
-    private static final String MENU = ""
-            + "Menu Principal\n"
-            + "1 - Cadastrar Pizza\n"
-            + "2 - Listar Pizzas\n"
-            + "3 - Realizar Pedido (adicionar pizza)\n"
-            + "4 - Ver Total do Pedido\n"
-            + "5 - Imprimir Pedido\n"
-            + "6 - Definir/Alterar Cliente do Pedido\n"
-            + "7 - Remover item do Pedido\n"
-            + "0 - Sair\n";
+    private static final String MENU = "" +
+            "Menu Principal\n" +
+            "1 - Cadastrar Pizza\n" +
+            "2 - Listar Pizzas\n" +
+            "3 - Realizar Pedido (adicionar pizza)\n" +
+            "4 - Ver Total do Pedido\n" +
+            "5 - Imprimir Pedido\n" +
+            "6 - Definir/Alterar Cliente do Pedido\n" +
+            "7 - Remover item do Pedido\n" +
+            "0 - Sair\n";
 
     public static void main(String[] args) {
         // Cardápio inicial (exemplos)
@@ -30,10 +30,12 @@ public class Principal {
             if (opcaoStr == null) {
                 // Usuário cancelou: confirmar saída
                 int c = JOptionPane.showConfirmDialog(null, "Deseja realmente sair?", "Sair", JOptionPane.YES_NO_OPTION);
-                if (c == JOptionPane.YES_OPTION) break;
-                else continue;
-            }
-            int opcao;
+                if (c == JOptionPane.YES_OPTION) {
+                    break;
+                } else {
+                    continue;
+                }
+            } int opcao;
             try {
                 opcao = Integer.parseInt(opcaoStr.trim());
             } catch (NumberFormatException e) {
@@ -42,13 +44,27 @@ public class Principal {
             }
 
             switch (opcao) {
-                case 1: cadastrarPizza(); break;
-                case 2: listarPizzas(); break;
-                case 3: realizarPedido(); break;
-                case 4: verTotal(); break;
-                case 5: imprimirPedido(); break;
-                case 6: definirCliente(); break;
-                case 7: removerItemPedido(); break;
+                case 1:
+                    cadastrarPizza();
+                    break;
+                case 2:
+                    listarPizzas();
+                    break;
+                case 3:
+                    realizarPedido();
+                    break;
+                case 4:
+                    verTotal();
+                    break;
+                case 5:
+                    imprimirPedido();
+                    break;
+                case 6:
+                    definirCliente();
+                    break;
+                case 7:
+                    removerItemPedido();
+                    break;
                 case 0:
                     JOptionPane.showMessageDialog(null, "Até logo!");
                     return;
