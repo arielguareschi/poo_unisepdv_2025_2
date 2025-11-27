@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Boletim/Boletim.iml" filepath="$PROJECT_DIR$/Boletim/Boletim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BoletimClasse/BoletimClasse.iml" filepath="$PROJECT_DIR$/BoletimClasse/BoletimClasse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculadoraSalario/CalculadoraSalario.iml" filepath="$PROJECT_DIR$/CalculadoraSalario/CalculadoraSalario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClashBatlefield/ClashBatlefield.iml" filepath="$PROJECT_DIR$/ClashBatlefield/ClashBatlefield.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Condicionais/Condicionais.iml" filepath="$PROJECT_DIR$/Condicionais/Condicionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EscolhendoOpcao/EscolhendoOpcao.iml" filepath="$PROJECT_DIR$/EscolhendoOpcao/EscolhendoOpcao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Escolinha/Escolinha.iml" filepath="$PROJECT_DIR$/Escolinha/Escolinha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploTry1/ExemploTry1.iml" filepath="$PROJECT_DIR$/ExemploTry1/ExemploTry1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JogoVelha/JogoVelha.iml" filepath="$PROJECT_DIR$/JogoVelha/JogoVelha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jokenpo/Jokenpo.iml" filepath="$PROJECT_DIR$/Jokenpo/Jokenpo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pizzaria/Pizzaria.iml" filepath="$PROJECT_DIR$/Pizzaria/Pizzaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PoorCat/PoorCat.iml" filepath="$PROJECT_DIR$/PoorCat/PoorCat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeiroExemplo/PrimeiroExemplo.iml" filepath="$PROJECT_DIR$/PrimeiroExemplo/PrimeiroExemplo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefas/Tarefas.iml" filepath="$PROJECT_DIR$/Tarefas/Tarefas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ValorPorKm/ValorPorKm.iml" filepath="$PROJECT_DIR$/ValorPorKm/ValorPorKm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exemplogit/exemplogit.iml" filepath="$PROJECT_DIR$/exemplogit/exemplogit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/poo_unisepdv_2025_2.iml" filepath="$PROJECT_DIR$/.idea/poo_unisepdv_2025_2.iml" />
+    </modules>
+  </component>
+</project>
