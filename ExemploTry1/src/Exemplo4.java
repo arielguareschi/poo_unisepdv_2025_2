@@ -8,6 +8,7 @@ public class Exemplo4 {
             System.err.println(e.getMessage());
         }
     }
+    
     public static void autenticar(
             String email, String senha) throws LoginException{
         if (!email.equals("admin") && !senha.equals("admin")){

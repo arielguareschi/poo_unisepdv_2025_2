@@ -1,0 +1,7 @@
+Lavar roupa1|Casa
+Fechar porta2|Casa
+Lavar roupa3|Casa
+Lavar roupa5|Casa
+Fechar porta6|Casa
+Lavar roupa|Casa
+Fechar porta|Casa
