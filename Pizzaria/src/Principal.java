@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Principal {
 
-    private static ArrayList<Pizza> cardapio = new ArrayList<>();
+    private static final ArrayList<Pizza> cardapio = new ArrayList<>();
     private static Pedido pedidoAtual = new Pedido();
 
     private static final String MENU = "" +
@@ -180,7 +180,7 @@ public class Principal {
         for (int i = 0; i < pedidoAtual.getItems().size(); i++) {
             sb.append(i).append(" - ").append(pedidoAtual.getItems().get(i)).append("\n");
         }
-        String idxStr = JOptionPane.showInputDialog(null, sb.toString() + "\nInforme o índice para remover:");
+        String idxStr = JOptionPane.showInputDialog(null, sb + "\nInforme o índice para remover:");
         if (idxStr == null || idxStr.trim().isEmpty()) return;
         try {
             int idx = Integer.parseInt(idxStr.trim());

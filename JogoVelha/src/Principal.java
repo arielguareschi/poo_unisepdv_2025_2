@@ -3,21 +3,21 @@ import javax.swing.*;
 public class Principal {
 
     public static String mostrarTabuleiro(String[][] t){
-        String retorno = "  1   2   3\n";
+        StringBuilder retorno = new StringBuilder("  1   2   3\n");
         for (int i = 0; i< 3; i++){
-            retorno += (i + 1) + " ";
+            retorno.append((i + 1)).append(" ");
             for (int j = 0; j < 3; j++){
-                retorno += t[i][j];
+                retorno.append(t[i][j]);
                 if (j < 2){
-                    retorno += " | ";
+                    retorno.append(" | ");
                 }
             }
-            retorno += "\n";
+            retorno.append("\n");
             if (i < 2){
-                retorno += " ---+---+---\n";
+                retorno.append(" ---+---+---\n");
             }
         }
-        return retorno;
+        return retorno.toString();
     }
 
     public static boolean tabuleiroCheio(String[][] t){
@@ -49,10 +49,7 @@ public class Principal {
             return true;
         }
         // valida na diagonal alema
-        if (t[0][2].equals(j) && t[1][1].equals(j) && t[2][0].equals(j)){
-            return true;
-        }
-        return false;
+        return t[0][2].equals(j) && t[1][1].equals(j) && t[2][0].equals(j);
     }
 
     public static void main(String[] args) {
@@ -91,7 +88,7 @@ public class Principal {
                     JOptionPane.INFORMATION_MESSAGE
             );
 
-            int linha = -1, coluna = -1;
+            int linha, coluna;
             boolean jogadaValida = false;
             while (!jogadaValida){
                 try{

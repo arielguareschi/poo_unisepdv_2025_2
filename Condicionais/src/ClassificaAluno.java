@@ -8,7 +8,7 @@ public class ClassificaAluno {
 
         System.out.println("Digite a nota do aluno: ");
         Double nota = s.nextDouble();
-        String desc = "";
+        String desc;
 
         if (nota >= 0.0 && nota <= 2.0){
             desc = "ATENÇÃO MÁXIMA";

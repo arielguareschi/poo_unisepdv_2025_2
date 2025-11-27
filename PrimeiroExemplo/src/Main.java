@@ -18,8 +18,6 @@ public class Main {
 
         int nota;
         int nota2 = 10;
-        nota = 1;
-        nota2 = 11;
 
         String nome = "Tiburso";
         Double salario = 150.0;

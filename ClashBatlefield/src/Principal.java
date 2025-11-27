@@ -16,6 +16,6 @@ public class Principal {
         Personagem vencedor = batalha.iniciar();
         // depois o vencedor batalhar com o outro.
         batalha = new Batalha(vencedor, f1);
-        vencedor = batalha.iniciar();
+        batalha.iniciar();
     }
 }

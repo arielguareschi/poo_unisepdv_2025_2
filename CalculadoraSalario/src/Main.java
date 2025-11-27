@@ -28,7 +28,7 @@ public class Main {
         System.out.println("% IR ("+perIr+"%): R$ " + vlrIr);
         System.out.println("Salário Liquído: R$ " + salarioLiquido);
 
-        int valores[] = new int[5];
+        int[] valores = new int[5];
         valores[0] = 1;
         valores[1] = 2;
         valores[2] = 3;
@@ -36,7 +36,7 @@ public class Main {
         valores[4] = 5;
         System.out.println(valores[1]);
 
-        int notas[][] = new int[2][2];
+        int[][] notas = new int[2][2];
         notas[0][0] = 1;
         notas[0][1] = 9;
         notas[1][0] = 8;

@@ -3,9 +3,9 @@ import javax.swing.*;
 public class Boletim {
 
     public static void main(String[] args) {
-        String alunos[] = new String[10];
-        Double b1[] = new Double[10];
-        Double b2[] = new Double[10];
+        String[] alunos = new String[10];
+        Double[] b1 = new Double[10];
+        Double[] b2 = new Double[10];
 
         for(int i = 0; i< 10; i++){
             String nome = JOptionPane
@@ -22,25 +22,20 @@ public class Boletim {
             b2[i] = nota2;
         }
 
-        String nomes = "";
+        StringBuilder nomes = new StringBuilder();
         Double mediaTurma = 0.0;
         for (int i = 0; i < 10; i++) {
             Double media = (b1[i] + b2[i]) / 2;
             mediaTurma += media;
 
-            nomes = nomes +
-                    "Aluno: " + alunos[i] +
-                    " - B1: " + b1[i] +
-                    " - B2: " + b2[i] +
-                    " - Média: " + media + "\n";
+            nomes.append("Aluno: ").append(alunos[i]).append(" - B1: ").append(b1[i]).append(" - B2: ").append(b2[i]).append(" - Média: ").append(media).append("\n");
         }
 //        mediaTurma = mediaTurma / 10;
         mediaTurma /= 10;
-        nomes = nomes + "Média da Turma: " +
-                mediaTurma;
+        nomes.append("Média da Turma: ").append(mediaTurma);
         JOptionPane.showMessageDialog(
                 null,
-                nomes);
+                nomes.toString());
 
     }
 }

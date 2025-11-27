@@ -23,7 +23,7 @@ public class Frequencia {
                 corte = (100 * 25) / 100;
                 break;
         }
-        String situacao = "";
+        String situacao;
         if (faltas >= corte){
             situacao = "Reprovado";
         } else {

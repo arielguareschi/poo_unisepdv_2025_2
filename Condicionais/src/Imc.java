@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Imc {
     public static void main(String[] args) {
-        Double imc = 0.0;
+        Double imc;
         Double peso;
         Double altura;
 

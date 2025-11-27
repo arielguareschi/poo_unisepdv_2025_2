@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Pedido {
     private String cliente;
-    private ArrayList<Pizza> items;
+    private final ArrayList<Pizza> items;
 
     public Pedido(){
         this.items = new ArrayList<>();

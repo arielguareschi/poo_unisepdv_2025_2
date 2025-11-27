@@ -13,8 +13,7 @@ public class PoorCat {
     private static String sorteia(Random rng) {
         int max = SIMBOLOS.size();
         int sorteado = rng.nextInt(max);
-        String simbolo = SIMBOLOS.get(sorteado);
-        return simbolo;
+        return SIMBOLOS.get(sorteado);
         //return SIMBOLOS.get(rng.nextInt(SIMBOLOS.size()));
     }
 
